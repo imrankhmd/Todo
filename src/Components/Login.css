@@ -1,0 +1,27 @@
+.LoginDiv{
+ border: 3px solid red;
+    border-radius: 15px;
+    width: 700px;
+    padding: 20px 50px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #B4FF9F;
+    padding-left: 80px;
+}
+.LoginForm>input{
+font-size: 22px;
+margin: 15px;
+padding: 15px;
+background-color: #BABD42;
+border-radius: 10px;
+}
+.LoginForm>input::placeholder{
+color: #F2F2F2;
+}
+.LoginForm>input:nth-last-child(1){
+    margin-left: 270px;
+    font-weight: 700;
+    padding: 15px;
+    color: #112B3C;
+    background-color: #F66B0E;
+}
